@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   /*background-color: black;*/
+    background: linear-gradient(to bottom, #f5c900, #183182)
+}
+header{
+    height: 100px;
+    background: linear-gradient(to left, #183182a9, #f5c80061);
+    color: #503f08;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+.h1h{
+    text-align: center;
+}
+
+.h2-0{
+    color: #786116e4;
+    font-weight: bold;
+}
+
+p {
+    color: #183182;
+    margin: 0;
+    padding: 0;
+}
+
+.styled-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: #031245a1;
+
+}
+
+.styled-list.li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color:f5c900;
+    gap: 10px;
+}
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: #f5c900;
+    padding: 5px;
+    margin: 2%;
+    
+}
